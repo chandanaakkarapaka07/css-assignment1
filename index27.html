@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #main-paragraph{
+            color: red;
+        }
+        .highlight{
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Analyzing and Applying CSS Selectors</h1>
+    <h2>1.Identify the different elements, classes, and IDs within the HTML document.</h2>
+    <h2>Elements:</h2>
+    <h4>Elements are the building blocks of HTML. They are defined by tags. Common HTML elements include </h4>
+    <div>This is a div element</div>
+<p>This is a paragraph element</p>
+<a href="https://www.google.com/">This is a link element</a>
+<h2>Classes:</h2>
+<h4>Classes are used to apply styles or JavaScript functionality to one or more HTML elements. They are defined using the class attribute.</h4>
+<p class="highlight">This paragraph has a class named 'highlight'</p>
+<h2>IDs:</h2>
+<h4>IDs are used to uniquely identify a specific HTML element. They are defined using the id attribute.</h4>
+<p id="main-paragraph">This paragraph has an ID named 'main-paragraph'</p>
+
+    
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <STYLE>
+        P{
+            font-family: Arial, Helvetica, sans-serif;
+            
+            color: blue;
+        }
+        #text {
+            font-family: cursive;
+            background-color:yellow ;
+        }
+        .para{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: bisque;
+            color: rgb(166, 16, 69);
+
+        }
+    </STYLE>
+</head>
+<body>
+    <h2 >2.Determine the appropriate CSS selectors that can be used to style specific elements, classes,   
+        or IDs.
+   
+</h2>
+<h3 class="para">What is CSS
+    </h3>
+    <p>
+        CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in markup language. It provides an additional feature to HTML. It is generally used with HTML to change the style of web pages and user interfaces. It can also be used with any kind of XML documents including plain XML, SVG and XUL.
+    </p>
+    <h3 class="para">CSS Selector</h3>
+    <ol id="text">
+        <li>CSS Element Selector</li>
+        <li>CSS Id Selector</li>
+        <li>CSS Class Selector</li>
+        <li>CSS Universal Selector</li>
+        <li>CSS Group Selector</li>
+    </ol>
+    <h3 class="para">CSS Id Selector  </h3>
+    <p>The id selector selects the id attribute of an HTML element to select a specific element. An id is always unique within the page so it is chosen to select a single, unique element.
+
+        It is written with the hash character (#), followed by the id of the element.</p>
+        <H3 class="para">CSS Class Selector
+
+        </H3>
+        <P>The class selector selects HTML elements with a specific class attribute. It is used with a period character . (full stop symbol) followed by the class name.</P>
+
+    
+
+<h2>3.Create a comprehensive report that explains the usage of CSS selectors based on the identified   
+        elements, classes, and IDs.
+    
+    </h2>
+    <h3>I. Introduction</h3>
+    <h4>Cascading Style Sheets (CSS) is a powerful language used for styling and formatting web documents. CSS selectors play a crucial role in applying styles to specific elements, classes, and IDs within HTML documents. This report aims to provide a comprehensive overview of CSS selectors and their usage based on identified elements, classes, and IDs.</h4>
+
+
+    <h3>II. Basic CSS Selectors</h3>
+    <ol>
+        <li>Universal Selector (*)</li>
+        <ul><li>The universal selector targets all elements on a webpage.</li>
+        <li>Usage example: * { margin: 0; padding: 0; } resets margins and padding for all elements.</li></ul>
+        <Li>Element Selector</Li><ul>
+            <li>Targets specific HTML elements.</li>
+            <li>Usage example: p { color: blue; } sets the text color of all paragraphs to blue.</li></ul>
+        <li>Class Selector (.)</li>
+        <ul>
+            <li>Targets elements with a specific class attribute.</li>
+            <li>Usage example: .highlight { font-weight: bold; } makes text with the "highlight" class bold.</li>
+        </ul>
+        <li>ID Selector (#)</li>
+        <ul>
+            <li>Targets elements with a specific class attribute.</li><li>Usage example: .highlight { font-weight: bold; } makes text with the "highlight" class bold.
+            </li>
+        </ul>
+        
+    </ol>
+    <h3>III. Advanced CSS Selectors</h3>
+    <ol>
+        <li>Descendant Selector ( )</li>
+        <ol>
+            <li>Targets nested elements.</li>
+            <li>Usage example: article p { font-style: italic; } italicizes paragraphs within an article.</li>
+        </ol>
+        <li>Child Selector (>)</li><ol>
+            <li>Targets direct children of a parent element.</li>
+            <li>Usage example: ul > li { list-style-type: square; } styles only direct list items of a list.</li>
+        </ol>
+        <li>Adjacent Sibling Selector (+)</li>
+        <ol>
+            <li>Targets an element that is immediately preceded by a specific element.</li>
+            <li>Usage example: h2 + p { font-size: 1.2em; } increases the font size of paragraphs directly following an h2.</li>
+        </ol>
+    </ol>
+
+    
+</body>
+</html>
